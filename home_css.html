@@ -10,32 +10,56 @@
     <meta name="description" content="This is my practice website" />
     <meta charset="utf-8" />
     <style>
+      * {
+        border: 2px solid black;
+      }
       html {
         background-color: violet;
       }
       body {
         background-color: yellow;
-        margin: 0px;
+        padding: 20px;
+        margin: 20px;
       }
       div {
-        height: 150px;
-        width: 150px;
-        background-color: tomato;
-        margin: 10px;
+        padding: 20px;
       }
       span {
-        display: block;
-        background-color: wheat;
-        margin: 10px;
+        background-color: blue;
+        font-style: italic;
+        color: white;
+        padding: 10px;
+      }
+      #first {
+        background-color: brown;
+      }
+      #second {
+        background-color: aqua;
+      }
+      #third {
+        background-color: beige;
+      }
+      .btn {
+        border-radius: 10px;
+        padding: 5px 10px;
+      }
+      .tomato {
+        background-color: tomato;
       }
     </style>
   </head>
   <body>
-    <div></div>
-    <div></div>
-    <div></div>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <span class="btn tomato">hello</span>
+          <span class="btn">hello</span>
+          <span class="btn tomato">hello</span>
+          <span class="btn">hello</span>
+          <span class="btn tomato">hello</span>
+          <span class="btn">hello</span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
