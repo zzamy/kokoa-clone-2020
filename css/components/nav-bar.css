@@ -52,3 +52,18 @@
   left: 65px;
   bottom: 25px;
 }
+
+.nav__notification4 {
+  background-color: tomato;
+  color: white;
+  border-radius: 2.5px;
+  width: 5px;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: absolute;
+  left: 110px;
+  bottom: 25px;
+}
