@@ -69,7 +69,8 @@
 }
 
 .message__bubble {
-  background-color: white;
+  color: white;
+  background-color: gray;
   padding: 13px;
   border-radius: 10px;
   margin-right: 5px;
@@ -161,6 +162,7 @@
 
 .reply__column button i {
   opacity: 1;
+  color: white;
 }
 
 .reply__column button:focus,
